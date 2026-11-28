@@ -18,7 +18,7 @@
 <body>
 <main>
   <h1>Handy Interpreter Privacy Policy</h1>
-  <p class="updated">Effective: 26 November 2026</p>
+  <p class="updated">Effective: 27 November 2026</p>
 
   <h2>Summary</h2>
   <p>Handy Interpreter translates spoken conversations, talks and announcements. It has no accounts, advertising or analytics, and doesn't save recordings or transcripts on your device. When AI mode is allowed and turned on, some recordings and text are sent to third-party AI services to recognize and translate them, as described below.</p>
@@ -30,16 +30,17 @@
   <p>Speech is turned into text by Apple's speech recognizer. This happens on your iPhone when the language supports it. Otherwise Apple may process the audio on its servers, under Apple's privacy policy.</p>
 
   <h2>AI mode</h2>
-  <p>When AI mode is on, a recording of what was said is sent over an encrypted connection to the app's server on Amazon Web Services in Singapore if the speech was, or may have been, Chinese, or if the iPhone's own speech recognizer couldn't make out any words in it. In a conversation with Chinese, that's whenever the iPhone doesn't recognize the speech as the other language. The server forwards them to Alibaba Cloud's Qwen speech recognition service in Singapore and returns the text to your iPhone.</p>
-  <p>The app's server does not store the audio or the text. Like any online service, it receives your IP address with each request, but it doesn't log it. Its logs contain only processing times, data sizes and error messages, and they are deleted after 14 days. In Listen mode, the text of what was said, with up to three passages before it for context, is also sent to the app's server, which forwards it to Google's Gemini API to be translated and returns the translation to your iPhone.</p>
-  <p>Alibaba Cloud handles the audio, and Google the text, under their own terms, and each provider may keep technical records as part of running its service.</p>
+  <p>When AI mode is on, a recording of what was said is sent over an encrypted connection to the app's server on Amazon Web Services in Singapore if the speech was, or may have been, Chinese, or if the iPhone's own speech recognizer couldn't make out any words in it. In a conversation with Chinese, that's whenever the iPhone doesn't recognize the speech as the other language. The server forwards it to a third-party AI speech recognition service and returns the text to your iPhone.</p>
+  <p>The app's server does not store the audio or the text. Like any online service, it receives your IP address with each request, but it doesn't log it. Its logs contain only processing times, data sizes and error messages, and they are deleted after 14 days. In Listen mode, the text of what was said, with up to three passages before it for context, is also sent to the app's server, which forwards it to a third-party AI language model to be translated and returns the translation to your iPhone.</p>
+  <p>These AI providers handle what they receive under their own terms, and may keep technical records as part of running their services.</p>
+
   <p>With AI mode off, nothing is sent to this server.</p>
 
   <h2>AI mode preview</h2>
   <p>During the complimentary preview, AI mode requires no purchase, and the app sends nothing to the app's server that identifies you or your Apple Account, apart from the IP address every connection carries. Every copy of the app presents the same preview key to the server, which counts total daily requests across all preview users and deletes daily counts after two days.</p>
 
   <h2>Translation and voice</h2>
-  <p>Translation uses Apple's Translation framework with languages downloaded from Apple. In Listen mode with AI mode on, Google's Gemini translates instead, as described under AI mode, and Apple's translation is used when Gemini is slow or unavailable. Translations are spoken by your iPhone's built-in voices.</p>
+  <p>Translation uses Apple's Translation framework with languages downloaded from Apple. In Listen mode with AI mode on, a third-party AI language model translates instead, as described under AI mode, and Apple's translation is used when it is slow or unavailable. Translations are spoken by your iPhone's built-in voices.</p>
 
   <h2>What is stored on your iPhone</h2>
   <p>The app stores your language choices and settings, and a log of how long each step took. The log contains timings and language names, never speech or text, and it is replaced each time the app opens. Deleting the app deletes all of this.</p>
